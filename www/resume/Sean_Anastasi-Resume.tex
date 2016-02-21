@@ -1,0 +1,168 @@
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ %
+% Author:  Sean Anastasi <spa@cs.washington.edu>                               %
+% Version: 2010/5/3                                                            %
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ %
+\documentclass[9pt]{article}
+
+\usepackage{fullpage, multicol}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+
+\renewcommand*\familydefault{\sfdefault} % Font family
+\renewcommand{\labelitemi}{$-$}          % List items are dashes.
+
+% Force 8.5x11 paper and margins.
+\pdfpagewidth    8.5in
+\pdfpageheight   11in 
+\textheight      11in
+\textwidth       6.9in
+\topmargin      -0.0in
+\oddsidemargin  -0.4in
+\pagestyle{empty}
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\newcommand{\mysectiontitle}[1]{ { { \large{\textbf{#1} } } \vspace{0.02in}} }
+\newcommand{\secspace}{\vspace{0.5cm}}
+\newcommand{\smallvspace}{\vspace{0.1cm}}
+
+% Hack, use lists to indent temporarily.
+\newenvironment{changemargin}[2]{%
+  \begin{list}{}{%
+    \setlength{\topsep}{0pt}%
+    \setlength{\leftmargin}{#1}%
+    \setlength{\rightmargin}{#2}%
+    \setlength{\listparindent}{\parindent}%
+    \setlength{\itemindent}{\parindent}%
+    \setlength{\parsep}{\parskip}%
+  }%
+  \item[]}{\end{list}}
+
+\begin{document}
+  %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  % HEADER
+  %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  \begin{multicols}{2}
+    {\huge{\textbf{Sean P. Anastasi}}}
+    \begin{changemargin}{1cm}{0cm}
+      \textit{spa@cs.washington.edu} \textit{spa@u.washington.edu} \\
+
+      \hfill 5215 15th Ave NE \\
+      \hfill Seattle, WA 98105 \\
+      \hfill \textit{(240) 447-3083} \\
+    \end{changemargin}
+      
+  \end{multicols}
+  
+  \begin{changemargin}{1cm}{0.5cm}
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    % EDUCATION & AWARDS
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    \begin{multicols}{2}
+      \mysectiontitle{Education}
+      \vspace{-0.5em}
+      \begin{changemargin}{0.5cm}{0.5cm}
+      University of Washington \\
+      Major: Computer Science \\
+      Major GPA   3.68 \\
+      Overall GPA 3.33 \\
+      \end{changemargin}
+      \vspace{1em}
+    
+      \mysectiontitle{Honors and Awards}
+      \vspace{-0.5em}
+      \begin{itemize}
+        \itemsep -1px
+        \item Eagle Scout Award
+        \item Dean's list Aut. 2006, Aut. 2007
+        \item Glerum Endowed Scholarship \\ (CSE Departmental Scholarship)
+      \end{itemize}
+    \end{multicols}
+
+    \vspace{-0.5em}\smallvspace
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    % WORK EXPERIENCE
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    \mysectiontitle{Work Experience}
+    \begin{changemargin}{0.5cm}{0.5cm}
+      {\textbf{Amazon.com, Inc.}}, Seattle, WA \hfill \textit{Jun., 2009 - Sept. 2009} \\
+      \textit{Software Development Engineer Intern} \\
+      Designed and implemented a production system for quantity limits on items
+      and a system to automatically set those limits on items sold at a loss.
+    
+      \smallvspace
+      {\textbf{University of Washington CSE}}, Seattle, WA \hfill \textit{Jan., 2008 - Present} \\
+      \textit {Undergraduate Teaching Assistant}           CSE 142 (Introductory Computer Science I)
+      \phantom{\textit{Undergraduate Teaching Assistant}} CSE 341 (Programming Languages)           \\
+      Taught a one hour section of 20-30 students, taught in the Introductory Programming 
+      Laboratory, graded homework and exams and developed  classroom material and grading criteria.
+  
+      \smallvspace
+      {\textbf{Government Employees Insurance Company (GEICO)}}, Chevy Chase, MD \hfill \textit{Jul., 2007 - Sept., 2007} \\
+      
+      \textit{Web Design Intern} \\
+      Worked on projects within the Underwriting and Project Management
+      department to improve GEICO's intranet. \\
+      \begin{itemize}
+        \item Translation of page data from HTML to XML-based structure. Developed XML schemas and DTDs.
+        \item Improved departmental web development skills in HTML, XML and XSLT.
+      \end{itemize}
+    \end{changemargin}
+    
+    
+    \vspace{0.5em}
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    % AREAS OF STUDY/ PROJECTS
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    \mysectiontitle{Areas of Study/ Projects}
+    \vspace{-0.5em}
+    \begin{multicols}{2}    
+      \begin{itemize}
+        \itemsep -1px
+        \item Digital Design, Assembly Language, Embedded Systems Design
+        \item Formal Semantics, Compiler Design
+        \item Computer Graphics
+        \item Website Design - Designed and built webpages for several student organizations
+        \vspace{0.5em}
+        \item Operating Systems - Modified the Linux and Windows Server kernel, FAT file system in class projects.
+        \item Computer Vision, Artificial Intelligence, Embedded Systems - Designed, built and programmed autonomous, maze-solving 
+              robot on an embedded Linux system.
+      \end{itemize}
+    \end{multicols}
+    
+    
+    \vspace{-0.5em}
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    % UNDERGRADUATE RESEARCH
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    \mysectiontitle{Undergraduate Research}
+    \begin{changemargin}{0.5cm}{0.5cm}
+      {\textbf{MobileASL}} \hfill \textit{Jan., 2008 - Present} \\
+      
+      \textit{http://mobileasl.cs.washington.edu} \\
+      Video compression to enhance intelligibility of Sign Language communication. Worked on porting the application from Windows Mobile 
+      to a new, Linux-based phone.  Embedded linux development, network communication and media framework experience.
+    \end{changemargin}
+    
+    
+    \vspace{1em}
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    % RELEVANT SKILLS
+    %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    \mysectiontitle{Relevant Skills}
+    \begin{changemargin}{0.5cm}{0.5cm}
+      Excellent computer skills and problem solving ability. Experience planning, organizing, and executing a project
+      from start to finish.  Ability to learn new skills very quickly and immediately use them effectively.
+  
+      Experience with programming, debugging, graphics, hardware, and networking in Linux, Windows Vista/XP/2000.
+  
+      Proficiency in a large number of programming languages including Java, C, Ruby and Python.
+      Considerable experience with web design and languages such as HTML, Javascript, Ruby on Rails, PHP and ASP. 
+      Experience with many other languages including C++/C\#, Perl, Scheme, Haskell, etc.
+  
+      Some ability in Japanese, Swedish and Spanish.
+    \end{changemargin}
+  \end{changemargin}
+\end{document}
+

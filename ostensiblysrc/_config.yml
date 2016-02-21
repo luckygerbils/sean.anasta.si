@@ -1,0 +1,5 @@
+gems: [jekyll-haml]
+sass:
+    sass_dir: css
+    style: compressed
+    syntax: scss

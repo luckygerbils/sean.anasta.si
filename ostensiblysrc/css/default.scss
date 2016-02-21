@@ -1,0 +1,130 @@
+/*******************************************************************************
+ * CSS stylesheet for default SeanAnastasi.com template.
+ *
+ * @author  Sean Anastasi
+ * @version 2009.7.11
+ */
+@import "reset.scss";
+
+body {
+  font-family: "DejaVu Sans", "Bitstream Vera Sans", Verdana, sans-serif;
+  font-size: 85%;
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  padding-top: 1em;
+}
+
+nav#links {
+  float: right;
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    display: block;
+    width: 5em;
+    
+    border: 1px solid #999999;
+    background-color: #fdfdfd;
+    color: #999999;
+    font-size: 120%;
+    
+    padding: 0.2em;
+    
+    &:hover {
+      background-color: white;
+      color: #777777;
+      border-color: #777777;
+    }
+    
+    &.current {
+      background-color: white;
+      color: #555555;
+      border-color: #555555;
+    }
+  }
+}
+
+h1 {
+    font-size: 250%;
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+}
+
+section#contents {
+  margin-top: 1em;
+}
+
+.content p {
+  margin: 1em 0em;
+}
+
+.content ul.textual li {
+  list-style-type: circle;
+  list-style-position: outside;
+  margin-left: 2em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  display: block;
+  clear: both;
+  font-size: 80%;
+  font-weight: bold;
+  text-align: center;
+  color: #bbbbbb;
+  border-top: 1px solid #eeeeee;
+  padding-top: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #222299;
+}
+
+code, pre {
+  font-family: 'Bitstream Vera Sans Mono', Courier, monospace;
+  font-size: 90%;
+}
+
+pre { margin-left: 1em; }
+
+.content a:hover {
+  text-decoration: underline;
+}
+
+a.w3c {
+  color: inherit;
+  border: 1px solid #bbbbbb;
+  padding: 2px;
+}
+
+a.w3c:hover {
+  background-color: #777777;
+  border: 1px solid #777777;
+  color: white;
+}
+
+#contents {
+  overflow: hidden;
+  min-height: 500px;
+}
+
+h3 { font-size: 150%; font-weight: bold; color: #503E2B; }
+
+.snapshot, .download {
+    float: right;
+    margin: 1em;
+    clear: right;
+    max-width: 20em;
+}
+

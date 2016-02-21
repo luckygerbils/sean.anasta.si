@@ -1,0 +1,80 @@
+Sean P. Anastasi
+
+  spa@cs.washington.edu                      4734 17th Ave NE
+  spa@u.washington.edu                       Seattle, WA 98105
+  (240) 447-3083
+
+Education                                  Honors and Awards
+     University of Washington                 − Eagle Scout Award
+     Major: Computer Science                  − Dean’s list Aut. 2006, Aut. 2007
+     Major GPA 3.68                           − Glerum Endowed Scholarship
+     Overall GPA 3.33                           (CSE Departmental Scholarship)
+
+
+Work Experience ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  Amazon.com, Inc., Seattle, WA                          Jun., 2009 - Sept. 2009
+     Software Development Engineer Intern
+
+     Designed and implemented a production system for quantity limits on items
+     and a system to automatically set those limits on items sold at a loss.
+
+  University of Washington CSE, Seattle, WA                   Jan., 08 - Present
+     Undergraduate Teaching Assistant CSE 142 (Introductory Computer Science I).
+                                      CSE 341 (Programming Languages)
+
+     Taught a one hour section of 20-30 students, taught in the Introductory
+     Programming Laboratory, graded homework and exams and developed classroom
+     material and grading criteria.
+
+  Government Employees Insurance Company (GEICO),       Jul., 2007 - Sept., 2007
+     Web Design Intern
+
+     Worked on projects within the Underwriting and Project Management 
+     department to improve GEICO’s intranet.
+        −  Translation of page data from HTML to XML-based structure.
+        −  Developed XML schemas and DTDs.
+        −  Improved departmental web development skills in HTML, XML and XSLT.
+
+
+Areas of Study/Projects ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    − Formal Semantics, Compiler Design
+    − Computer Vision, Artificial Intelligence -
+        Designed, built and programmed autonomous,
+        maze-solving search-and-rescue robot.
+    − Operating Systems -
+        Modified the Linux and Windows 2003 kernel,
+        FAT file system in class projects.
+    − Digital Design, Assembly Language
+    − Computer Graphics
+    − Website Design -
+        Designed and built webpages for several student organizations.
+
+
+Undergraduate Research ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  MobileASL                                                 Jan., 2008 - Present
+      http://mobileasl.cs.washington.edu
+
+  Video compression to enhance intelligibility of Sign Language communication.
+  Worked on porting the application from Windows Mobile to a new, Linux-based
+  phone.
+  
+  Embedded linux development, network and media framework experience.
+
+
+Relevant Skills ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     Excellent computer skills and problem solving ability. Experience planning,
+     organizing, and executing a project from start to finish. Ability to learn
+     new skills very quickly and immediately use them effectively.
+
+     Experience with programming, debugging, graphics, hardware, and networking
+     in Linux, Windows Vista/XP/2000.
+
+     Proficiency in a large number of programming languages including Java, C,
+     Ruby and Python. Considerable experience with web design and languages such
+     as HTML, Javascript, Ruby on Rails, PHP and ASP. Experience with many other
+     languages including C++/C#, Perl, Scheme, Haskell, etc.
+
+     Some ability in Japanese, Swedish and Spanish.
+
+

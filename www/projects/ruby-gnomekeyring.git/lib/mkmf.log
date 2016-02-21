@@ -1,0 +1,10 @@
+package configuration for glib-2.0
+cflags: -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  
+ldflags: 
+libs: -lglib-2.0  
+
+package configuration for gnome-keyring-1
+cflags: -I/usr/include/gnome-keyring-1 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include  
+ldflags: 
+libs: -lgnome-keyring -lglib-2.0  
+

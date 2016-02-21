@@ -1,0 +1,71 @@
+---
+---
+@import "default.scss";
+@import "ruby.scss";
+
+.project {
+    border: 1px solid #ddd;
+    padding: 1em;
+    overflow: hidden;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.project + .project {
+    margin-top: 2em;
+}
+
+.project {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+    .view {
+        font-size: 90%;
+        color: #229;
+        font-weight: normal;
+    }
+
+    h1 {
+        font-size: 120%;
+        font-weight: bold;
+        font-color: #555599;
+    }
+
+    h4 {
+        margin-top: 0.5em;
+        margin-bottom: 0.2em;
+        font-size: 110%;
+        font-weight: bold;
+        font-color: #555599;
+    }
+
+    h4 + p {
+        margin-top: 0em !important;
+    }
+
+
+    .section .section h3 {
+        font-size: 150%;
+    }
+
+    .snapshot, .download {
+        float: right;
+        margin: 1em;
+        clear: right;
+        max-width: 20em;
+    }
+
+    .snapshot {
+        max-height: 175px;
+    }
+
+    
+
+    dd {
+        margin-left: 2em;
+    }
+}
+

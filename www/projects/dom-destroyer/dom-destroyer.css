@@ -1,0 +1,49 @@
+.dom-destroyer-obstacle {
+    
+}
+
+.dom-destroyer-word, .dom-destroyer-image {
+    
+}
+
+#dom-destroyer-loading, #dom-destroyer-scoreboard {
+    border:   1px solid black;
+    background-color: white;
+    
+    padding:  0.5em;
+    position: fixed;
+    right:    5px;
+    top:      5px;
+    
+    max-width: 20em;
+    font-family: 'DejaVu Sans', 'Bitstream Vera Sans', Verdana, sans-serif;
+    
+    z-index: 101;
+}
+
+#dom-destroyer-scoreboard * {
+    color:     black !important;
+    font-family: 'DejaVu Sans', 'Bitstream Vera Sans', Verdana, sans-serif !important;
+    font-style: normal !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-variant: normal !important;
+}
+
+#dom-destroyer-scoreboard h3 {
+    font-size: 20pt !important;
+    margin: 0.2em 0px;
+}
+
+#dom-destroyer-score {
+    font-size: 15pt !important;
+    text-align: center;
+}
+
+#dom-destroyer-canvas {
+    position: fixed;
+    top:    0px;
+    left:   0px;
+    z-index: 100;
+}
+

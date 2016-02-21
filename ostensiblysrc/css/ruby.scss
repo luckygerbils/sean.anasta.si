@@ -1,0 +1,23 @@
+.ruby {
+    font-family: 'Bitstream Vera Sans Mono', Courier, monospace;
+    font-size: 90%; }
+.ruby .normal,      .ruby.normal     {}
+.ruby .comment,     .ruby.comment   { color: #999988; font-style: italic; }
+.ruby .keyword,     .ruby.keyword   { font-weight: bold; }
+.ruby .method,      .ruby.method    { color:#990000; font-weight:bold; }
+.ruby .class,       .ruby.class     { color:#445588; font-weight: bold; }
+.ruby .module,      .ruby.module    { color: #050; }
+.ruby .punct,       .ruby.punct     { color: #447; font-weight: bold; }
+.ruby .symbol,      .ruby.symbol    { color: #960B73; }
+.ruby .string,      .ruby.string    { color:#D81745; font-weight: bold; }
+.ruby .char,        .ruby.char      { color: #F07; }
+.ruby .ident,       .ruby.ident     { }
+.ruby .constant,    .ruby.constant  { color: #177F80; font-weight: bold; }
+.ruby .regex,       .ruby.regex     { color: #159828; }
+.ruby .number,      .ruby.number    { color: #1C9898; }
+.ruby .attribute,   .ruby.attribute { color: #0086B3; }
+.ruby .global,      .ruby.global    { color: #177F80; }
+.ruby .expr,        .ruby.expr      { color:#D81745; }
+.ruby .escape,      .ruby.escape    { }
+.ruby .pre-strong,  .ruby.pre-strong { font-weight: bold; }
+

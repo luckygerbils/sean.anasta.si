@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Sean Anastasi - Projects</title>
+    <link rel="stylesheet" type="text/css" href="/css/projects.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="links">
+        <ul>
+          <li><a href="/resume/">Resume</a></li>
+          <li><a href="/projects/" class="current">Projects</a></li>
+          <li><a href="/scripts/">Scripts</a></li>
+          <li><a href="/other/">Other</a></li>
+        </ul>
+      </nav>
+      <h1><a href="/">Sean Anastasi</a></h1>
+    </header>
+
+    <section id="contents" class="content">
+        <div class="snapshot" style="text-align: center; font-size: 130%; font-weight: bold;">
+            <a id="app-link1"><img src="/projects/dom-destroyer/snapshot.png" alt="Snapshot of DOM Destroyer" /></a><br />
+            <a id="app-link2">Click to play!</a>
+        </div>
+    
+        <h3>DOM Destroyer</h3>
+        <p>
+            Destroy your favorite webpages as you journey through the deepest regions of
+            the internet in your rocket ship!
+        </p>
+        <p>
+            Won Honorable Mention in <a href="http://developer.yahoo.com/hacku/uw.html">Yahoo HackU 2010</a>
+            for "Thinking outside the DOM" ("The Internet Game").
+        </p>
+        <p>
+            Uses the <a href="http://jquery.com/">jQuery</a> javascript library and <a href="http://www.w3.org/TR/html5/">HTML5</a>.
+        </p>
+        <p>
+            Graphics by Yuki Liang. <br />
+            New name courtesy of Jason Behmer.
+        </p>
+        
+        <h4>Download</h4>
+        <p>
+            <a href="/projects/dom-destroyer/dom-destroyer.user.js">Download as a User Script</a><br />
+            (<a href="http://www.google.com/chrome">Chrome</a> or
+                <a href="http://www.firefox.com">Firefox</a> +
+                <a href="https://addons.mozilla.org/en-US/firefox/addon/748">Greasemonkey</a>)
+        </p>
+        <p>
+            Right-click and <a id="app-link3">save as bookmarklet.</a><br />
+            (Any browser supporting the HTML5 canvas tag)
+        </p>
+        <p>
+            <a href="https://github.com/luckygerbils/dom-destroyer">Source on GitHub</a>
+        </p>
+        
+        <h4>Features/Ideas TODO:</h4>
+        <ul class="textual">
+            <li>Exploding images.</li>
+            <li>Save score (fix).</li>
+            <li>Letter residue (because letters are not consistent height).</li>
+            <li>
+                Links become wormholes: fly into links to browse to that page.
+                (Will only work with User Script version).
+            </li>
+        </ul>
+        
+        <script type="text/javascript">
+            var script = 'javascript:(' +
+                "function(){" +
+                    "var script=document.createElement('script');" +
+                    "script.src='http://sean.anasta.si/projects/dom-destroyer/src/dom-destroyer.user.js';" +
+                    "document.body.appendChild(script);" +
+                "})()";
+            document.getElementById("app-link1").href = script;
+            document.getElementById("app-link2").href = script;
+            document.getElementById("app-link3").href = script;
+        </script>
+    </section>
+
+    <footer>
+      <a class="w3c" rel="external" href="http://validator.w3.org/check/referer">HTML 5</a>
+      <a class="w3c" rel="external" href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3">CSS 3</a>
+    </footer>
+  </body>
+</html>

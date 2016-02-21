@@ -1,0 +1,36 @@
+<div class="section content">
+    <img class="snapshot" alt="Snapshot of MPN OSD" src="mpn-osd/snapshot.png" />
+    <h3>MPN OSD</h3>
+    <p>
+        A simple notification client for <a href="http://musicpd.org">MPD</a>.
+    </p>
+    <p><a href="mpn-osd/mpn-osd.tar.gz">Download Source Code</a></p>
+    <p>
+        An extended version of <a href="http://chadok.info/mpn/">MPNotifier</a>,
+        with support for album art and multiple languages and other improvements.
+    </p>
+    <p>
+        Most of the project was done with Ubuntu's new notify-osd system in mind,
+        however, other libnotify systems shouldn't have any problems running it.
+    </p>
+    
+    <h4>Installation Instructions</h4>
+    <p>
+        As root, run:
+        <code>
+          ./setup.py install
+        </code>
+    </p>
+    <h4>Running</h4>
+    <p>
+        Simply run <code>mpn</code> to start.  Options include:
+        <dl>
+          <dt><code>--daemon</code></dt>
+          <dd>Daemonize the process.</dd>
+          <dt><code>--timeout [n]</code></dt>
+          <dd>Timeout for a notification.</dd>
+          <dt><code>--once</code></dt>
+          <dd>Show one notification and then exit.</dd>
+        </dl>
+    </p>
+</div>

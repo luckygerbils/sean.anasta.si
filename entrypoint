@@ -1,0 +1,8 @@
+#!/bin/sh
+LIGHTTPD=/usr/sbin/lighttpd
+LIGHTTPD_CONF=/etc/lighttpd/lighttpd.conf
+LOG_DIR=/logs/sean.anasta.si
+
+mkdir -pv $LOG_DIR
+chown -c lighttpd:lighttpd $LOG_DIR
+$LIGHTTPD -D -f "$LIGHTTPD_CONF"

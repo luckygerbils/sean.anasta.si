@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <title>Sean Anastasi - Projects</title>
+    <link href="/css/projects.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav id="links">
+        <ul>
+          <li>
+            <a href="/resume/">Resume</a>
+          </li>
+          <li>
+            <a class="current" href="/projects/">Projects</a>
+          </li>
+          <li>
+            <a href="/scripts/">Scripts</a>
+          </li>
+          <li>
+            <a href="/other/">Other</a>
+          </li>
+        </ul>
+      </nav>
+      <h1>
+        <a href="/">Sean Anastasi</a>
+      </h1>
+    </header>
+    <section class="content" id="contents">
+      <section class="content" id="contens">
+        <section id="summary">
+          <p>Full blown applications that I've spent a decent amount of time on.</p>
+        </section>
+        <section class="project" href="dom-destroyer/">
+          <aside class="snapshot" style="text-align: center; font-size: 130%; font-weight: bold;">
+            <img alt="Snapshot of DOM Destroyer" src="dom-destroyer/snapshot.png" width="30" />
+          </aside>
+          <h1>DOM Destroyer - <a class="view" href="dom-destroyer/">View Project ↪</a></h1>
+          <p>
+            Destroy your favorite webpages as you journey through the deepest regions of
+            the internet in your rocket ship!
+          </p>
+          <p>
+            Won Honorable Mention in <a href="http://developer.yahoo.com/hacku/uw.html">Yahoo HackU 2010</a>
+            for "Thinking outside the DOM" ("The Internet Game").
+          </p>
+        </section>
+        <section class="project" href="ruby-gnomekeyring/">
+          <h1>ruby-gnomekeyring  - <a class="view" href="ruby-gnomekeyring/">View Project ↪</a></h1>
+          <p>A ruby binding of the <a href="http://live.gnome.org/GnomeKeyring">Gnome Keyring API</a>.</p>
+          <pre class="ruby"><span class="ident">require</span> <span class="punct">'</span><span class="string">gnome-keyring</span><span class="punct">'</span>
+          <span class="constant">GnomeKeyring</span><span class="punct">[&quot;</span><span class="string">login</span><span class="punct">&quot;].</span><span class="ident">unlock</span>
+          <span class="constant">GnomeKeyring</span><span class="punct">[&quot;</span><span class="string">login</span><span class="punct">&quot;].</span><span class="ident">items</span><span class="punct">.</span><span class="ident">each</span> <span class="keyword">do</span> <span class="punct">|</span><span class="ident">item</span><span class="punct">|</span>
+          <span class="ident">puts</span> <span class="punct">&quot;</span><span class="string"><span class="expr">item.name</span> =&gt; <span class="expr">item.secret.inspect</span></span><span class="punct">&quot;</span>
+          <span class="keyword">end</span></pre>
+        </section>
+        <section class="project" href="ruby-indicate/">
+          <h1>ruby-indicate - <a class="view" href="ruby-indicate/">View Project ↪</a></h1>
+          <p>
+            A ruby binding of <a href="http://www.ohloh.net/p/libindicate">libindicate</a>, which is used for Ubuntu
+            <a href="https://wiki.ubuntu.com/DesktopExperienceTeam/ApplicationIndicators">application indicators</a>
+            and the <a href="https://wiki.ubuntu.com/MessagingMenu">messaging menu</a>.
+          </p>
+          <pre class="ruby"><span class="ident">require</span> <span class="punct">'</span><span class="string">indicate</span><span class="punct">'</span>
+          <span class="constant">Indicate</span><span class="punct">::</span><span class="constant">Server</span><span class="punct">.</span><span class="ident">new</span><span class="punct">(</span><span class="symbol">:type</span> <span class="punct">=&gt;</span> <span class="constant">Indicate</span><span class="punct">::</span><span class="constant">Type</span><span class="punct">::</span><span class="constant">Message</span><span class="punct">::</span><span class="constant">Mail</span><span class="punct">,</span>
+          <span class="symbol">:desktop_file</span> <span class="punct">=&gt;</span> <span class="punct">'</span><span class="string">application.desktop</span><span class="punct">')</span> <span class="keyword">do</span>
+          <span class="ident">puts</span> <span class="punct">&quot;</span><span class="string">Indicate server clicked!</span><span class="punct">&quot;</span>
+          <span class="keyword">end</span>
+          <span class="constant">Indicate</span><span class="punct">::</span><span class="constant">Indicator</span><span class="punct">.</span><span class="ident">new</span><span class="punct">(&quot;</span><span class="string">myemail@domain.com</span><span class="punct">&quot;,</span> <span class="number">15</span><span class="punct">)</span> <span class="keyword">do</span> <span class="punct">|</span><span class="ident">indicator</span><span class="punct">|</span>
+          <span class="ident">puts</span> <span class="punct">&quot;</span><span class="string">Indicator clicked!</span><span class="punct">&quot;</span>
+          <span class="ident">indicator</span><span class="punct">.</span><span class="ident">hide</span>
+          <span class="keyword">end</span><span class="punct">.</span><span class="ident">show!</span></pre>
+        </section>
+      </section>
+    </section>
+    <footer>
+      <a class="w3c" href="http://validator.w3.org/check/referer" rel="external">HTML 5</a>
+      <a class="w3c" href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" rel="external">CSS 3</a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
+    <title>Sean Anastasi - Resume</title>
+    <link href="/css/resume.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <nav id="links">
+        <ul>
+          <li>
+            <a class="current" href="/resume/">Resume</a>
+          </li>
+          <li>
+            <a href="/projects/">Projects</a>
+          </li>
+          <li>
+            <a href="/scripts/">Scripts</a>
+          </li>
+          <li>
+            <a href="/other/">Other</a>
+          </li>
+        </ul>
+      </nav>
+      <h1>
+        <a href="/">Sean Anastasi</a>
+      </h1>
+    </header>
+    <section class="content" id="contents">
+      <section id="download">
+        Download as <a href="Sean_Anastasi-Resume.pdf">pdf</a>,
+        <a href="Sean_Anastasi-Resume.tex">LaTeX</a> or
+        <a href="Sean_Anastasi-Resume.txt">plain text</a>
+      </section>
+      <section class="content" id="resume">
+        <address>
+          4060 9th Ave NE, Apt 607<br />
+          Seattle, WA 98105<br />
+          (240) 447-3083
+        </address>
+        <a id="email">sean AT anasta DOT si</a>
+        <script type="text/javascript">
+          var e = document.getElementById('email');
+          e.innerHTML = String.fromCharCode(115,101,97,110,64,97,110,97,115,116,97,46,115,105);
+          e.href = 'mailto:' + e.innerHTML;
+        </script>
+        <section id="education">
+          <h1>Education</h1>
+          <a rel="external" href="http://www.washington.edu">University of Washington</a><br />
+          <a id="degree-validation-link" href="http://sdb.admin.washington.edu/sisDegreeValidation/Public/default.aspx">
+              Bachelor of Science, Computer Science (<time>2010</time>)
+          </a>
+          <form id="degree-validation-form" action="http://sdb.admin.washington.edu/sisDegreeValidation/Public/default.aspx" method="post">
+              <input type="hidden" name="txtLastName" value="Anastasi" />
+              <input type="hidden" name="txtFirstName" value="Sean" />
+              <input type="hidden" name="Search" value="Search" />
+	      <!--<input type="hidden" name="__VIEWSTATE" value="" />-->
+              <!--<input type="hidden" name="__EVENTVALIDATION" value="" />-->          
+</form>
+          <script type="text/javascript">
+	     var submitValidation = function (e) {
+                 e.preventDefault();
+                 document.getElementById('degree-validation-form').submit();
+             };
+             var linkElement = document.getElementById('degree-validation-link');
+             if (linkElement.addEventListener) {
+                 linkElement.addEventListener('click', submitValidation, false);
+             } else {
+                 linkElement.attachEvent('click', submitValidation);
+             }
+          </script>
+          <br />
+          Major GPA 3.68<br />
+          Overall GPA 3.33<br />
+        </section>
+        <section id="honors">
+          <h1>Honors and Awards</h1>
+          <ul>
+            <li>Eagle Scout Award</li>
+            <li>Dean’s list Aut. 2006, Aut. 2007</li>
+            <li>Glerum Endowed Scholarship (CSE Departmental Scholarship)</li>
+          </ul>
+        </section>
+        <section id="work-experience">
+          <h1>Work Experience</h1>
+          <section>
+            <h2>Amazon.com, Inc., <address>Seattle, WA</address></h2>
+            <time>Jun., 2009 - Sep., 2009</time>
+            <div class="position">Software Development Engineer Intern</div>
+            <p>
+              Designed and implemented a production system for quantity limits on
+              items and a system to automatically set those limits on items sold
+              at a loss.
+            </p>
+          </section>
+          <section>
+            <h2>University of Washington CSE, <address>Seattle, WA</address></h2>
+            <time>Jan., 2008 - Jun., 2010</time>
+            <div class="position">
+              Undergraduate Teaching Assistant
+              CSE 142 (Introductory Computer Science I), CSE 341 (Programming Languages)
+            </div>
+            <p>
+              Taught a one hour section of 20-30 students, taught in the
+              Introductory Programming Laboratory, graded homework and exams and
+              developed classroom material and grading criteria.
+            </p>
+          </section>
+          <section>
+            <h2>Government Employees Insurance Company (GEICO), <address>Chevy Chase, MD</address></h2>
+            <time>Jul., 2007 - Sep., 2007</time>
+            <div class="position">Web Design Intern</div>
+            <p>
+              Worked on projects within the Underwriting and Project Management
+              department to improve GEICO’s intranet.
+            </p>
+            <ul>
+              <li>Translation of page data from HTML to XML-based structure. Developed XML schemas and DTDs.</li>
+              <li>Improved departmental web development skills in HTML, XML and XSLT.</li>
+            </ul>
+          </section>
+        </section>
+        <section id="projects">
+          <h1>Areas of Study/ Projects</h1>
+          <ul>
+            <li>Digital Design, Assembly Language, Embedded Systems Design</li>
+            <li>Formal Semantics, Compiler Design</li>
+            <li>Computer Graphics</li>
+            <li>Website Design - Designed and built webpages for several student organizations</li>
+            <li>Operating Systems - Modified the Linux and Windows Server kernel, FAT file system in class projects.</li>
+            <li>
+              Computer Vision, AI, Embedded Systems -
+              Designed, built and programmed autonomous, maze-solving robot
+              on an embedded Linux system.
+            </li>
+          </ul>
+        </section>
+        <section id="research">
+          <h1>Undergraduate Research</h1>
+          <time>Jan., 2008 - Jun. 2010</time>
+          <h2>MobileASL - <a href="http://mobileasl.cs.washington.edu">http://mobileasl.cs.washington.edu</a></h2>
+          <p>
+            Video compression to enhance intelligibility of Sign Language communication. Worked on porting the
+            application from Windows Mobile to a new, Linux-based phone. Embedded linux development,
+            network communication and media framework experience.
+          </p>
+        </section>
+        <section id="relevant-skills">
+          <h1>Relevant Skills</h1>
+          <p>
+            Excellent computer skills and problem solving ability. Experience planning, organizing, and executing a
+            project from start to finish. Ability to learn new skills very quickly and immediately use them
+            effectively.
+          </p>
+          <p>
+            Experience with programming, debugging, graphics, hardware, and networking in Linux, Windows
+            Vista/XP/2000.
+          </p>
+          <p>
+            Proficiency in a large number of programming languages including Java, C, Ruby and Python.
+            Considerable experience with web design and languages such as HTML, Javascript, Ruby on Rails,
+            PHP and ASP. Experience with many other languages including C++/C#, Perl, Scheme, Haskell, etc.
+          </p>
+          <p>
+            Some ability in Swedish, Japanese and Spanish.
+          </p>
+        </section>
+      </section>
+    </section>
+    <footer>
+      <a class="w3c" href="http://validator.w3.org/check/referer" rel="external">HTML 5</a>
+      <a class="w3c" href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" rel="external">CSS 3</a>
+    </footer>
+  </body>
+</html>

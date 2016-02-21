@@ -1,0 +1,63 @@
+---
+layout: default
+title: Projects
+style: projects
+---
+%section#contens.content
+    %section#summary
+        %p Full blown applications that I've spent a decent amount of time on.
+    
+    %section.project(href="mailman/")
+        %hi Mailman - <a class="view" href="ruby-indicate/">View Project ↪</a>
+        %p
+            A simple mail notification application designed for Ubuntu, intended 
+            to provide the user full control over how they are notified of new messages.
+        %p
+            Mailman can be used alongside a local mail client or as a standalone mail checker for web-based email.
+    
+    %section.project(href="dom-destroyer/")
+        %aside.snapshot(style="text-align: center; font-size: 130%; font-weight: bold;")
+            %img(width="30" src="dom-destroyer/snapshot.png" alt="Snapshot of DOM Destroyer")
+
+        %h1 DOM Destroyer - <a class="view" href="dom-destroyer/">View Project ↪</a>
+        %p
+            Destroy your favorite webpages as you journey through the deepest regions of
+            the internet in your rocket ship!
+        %p
+            Won Honorable Mention in <a href="http://developer.yahoo.com/hacku/uw.html">Yahoo HackU 2010</a>
+            for "Thinking outside the DOM" ("The Internet Game").
+
+    %section.project(href="ruby-gnomekeyring/")
+        %h1 ruby-gnomekeyring  - <a class="view" href="ruby-gnomekeyring/">View Project ↪</a>
+        %p A ruby binding of the <a href="http://live.gnome.org/GnomeKeyring">Gnome Keyring API</a>.
+
+        %pre.ruby
+            <span class="ident">require</span> <span class="punct">'</span><span class="string">gnome-keyring</span><span class="punct">'</span>
+
+            <span class="constant">GnomeKeyring</span><span class="punct">[&quot;</span><span class="string">login</span><span class="punct">&quot;].</span><span class="ident">unlock</span>
+            <span class="constant">GnomeKeyring</span><span class="punct">[&quot;</span><span class="string">login</span><span class="punct">&quot;].</span><span class="ident">items</span><span class="punct">.</span><span class="ident">each</span> <span class="keyword">do</span> <span class="punct">|</span><span class="ident">item</span><span class="punct">|</span>
+            <span class="ident">puts</span> <span class="punct">&quot;</span><span class="string"><span class="expr">item.name</span> =&gt; <span class="expr">item.secret.inspect</span></span><span class="punct">&quot;</span>
+            <span class="keyword">end</span>
+
+    %section.project(href="ruby-indicate/")
+        %h1 ruby-indicate - <a class="view" href="ruby-indicate/">View Project ↪</a>
+        %p
+            A ruby binding of <a href="http://www.ohloh.net/p/libindicate">libindicate</a>, which is used for Ubuntu 
+            <a href="https://wiki.ubuntu.com/DesktopExperienceTeam/ApplicationIndicators">application indicators</a> 
+            and the <a href="https://wiki.ubuntu.com/MessagingMenu">messaging menu</a>.
+
+        %pre.ruby
+            <span class="ident">require</span> <span class="punct">'</span><span class="string">indicate</span><span class="punct">'</span>
+
+            <span class="constant">Indicate</span><span class="punct">::</span><span class="constant">Server</span><span class="punct">.</span><span class="ident">new</span><span class="punct">(</span><span class="symbol">:type</span> <span class="punct">=&gt;</span> <span class="constant">Indicate</span><span class="punct">::</span><span class="constant">Type</span><span class="punct">::</span><span class="constant">Message</span><span class="punct">::</span><span class="constant">Mail</span><span class="punct">,</span>
+            <span class="symbol">:desktop_file</span> <span class="punct">=&gt;</span> <span class="punct">'</span><span class="string">application.desktop</span><span class="punct">')</span> <span class="keyword">do</span>
+            <span class="ident">puts</span> <span class="punct">&quot;</span><span class="string">Indicate server clicked!</span><span class="punct">&quot;</span>
+            <span class="keyword">end</span>
+
+            <span class="constant">Indicate</span><span class="punct">::</span><span class="constant">Indicator</span><span class="punct">.</span><span class="ident">new</span><span class="punct">(&quot;</span><span class="string">myemail@domain.com</span><span class="punct">&quot;,</span> <span class="number">15</span><span class="punct">)</span> <span class="keyword">do</span> <span class="punct">|</span><span class="ident">indicator</span><span class="punct">|</span>
+            <span class="ident">puts</span> <span class="punct">&quot;</span><span class="string">Indicator clicked!</span><span class="punct">&quot;</span>
+            <span class="ident">indicator</span><span class="punct">.</span><span class="ident">hide</span>
+            <span class="keyword">end</span><span class="punct">.</span><span class="ident">show!</span>
+
+
+

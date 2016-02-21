@@ -1,0 +1,32 @@
+---
+---
+@import "default.scss";
+
+h1 {
+    font-size: 300%;
+}
+
+header {
+    padding-top: 3em;
+}
+
+aside#sidebar {
+    float: right;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+nav#links {
+    margin: 2em auto;
+    float: none;
+    
+    ul { text-align: center;    }
+    
+    a {
+        margin: 2px;
+        padding: 2px;
+        text-align: center;
+        font-size: 200%;
+        font-weight: bold;
+    }
+}

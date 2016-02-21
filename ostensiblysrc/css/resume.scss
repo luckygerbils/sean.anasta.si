@@ -1,0 +1,68 @@
+---
+---
+@import "default.scss";
+
+#contents {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#resume {
+    line-height: 1.25em;
+
+    address, #email {
+        float: right;
+        clear: both;
+        width: 15em;
+    }
+
+    section {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        
+        section {
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+        }
+        h1 {
+            font-size: 150%;
+            margin-bottom: 0.5em;
+        }
+        
+        address {
+            font-weight: normal;
+            float: none;
+            display: inline;
+        }
+        
+        ul {
+            margin-left: 2em;
+            
+            li::before {
+                content: "− ";
+            }
+        }
+        
+        time { 
+            float: right;
+            width: 15em;
+            text-align: right;
+            font-style: italic;
+        }
+    }
+
+    #education time {
+        float: none;
+        font-style: italic;
+    }
+
+    #work-experience {
+        h2 { font-weight: bold; }
+        .position { font-style: italic; }
+    }
+    
+    #research {
+        h2 { font-weight: bold; }
+        h2 a { font-weight: normal; }
+    }
+}
